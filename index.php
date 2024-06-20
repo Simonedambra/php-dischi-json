@@ -21,13 +21,17 @@
 
         <main class="container-fluid d-flex flex-wrap justify-content-center ">
             <div v-for="index in disc" class="col-2 m-5 gray rounded-1" style="height: 300px;">
-                <div class=" col-12 h-75 d-flex justify-content-center mt-3">
-                    <img class=" w-75 h-75 object-fit-cover rounded-2" :src="index.img" :alt="img">
+                <div class=" col-12 h-50 d-flex justify-content-center mt-3">
+                    <img class=" w-75 h-100 object-fit-cover rounded-2" :src="index.img" :alt="img">
                 </div>
 
 
 
-                <div class=" text-center color-white">{{index.title}}</div>
+                <div class=" color-white h-25 d-flex flex-column align-items-center mt-4">
+                    <h6>{{index.title}}</h6>
+                    <h6>{{index.artista}}</h6>
+                    <h6>{{index.anno}}</h6>
+                </div>
 
 
             </div>
