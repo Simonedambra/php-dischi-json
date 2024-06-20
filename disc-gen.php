@@ -12,7 +12,7 @@ $disc = [
         'title' => 'Bohemian Rhapsody',
         'artista' => 'Queen',
         'anno-prod' => '1975',
-        'img' => 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD…FGS8A5R+JgrvHNdEUzCUkLe62qpWTZlqPHyftWyTIfJ//2Q==',
+        'img' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvUQvgYPYeStpXv7uCyH1YNYYwAqxoelLcPQ&usqp=CAU',
     ],
     [
         'title' => 'Without Me',
@@ -30,25 +30,26 @@ $disc = [
         'title' => 'Equilibrio',
         'artista' => 'Sfera Ebbasta',
         'anno-prod' => '2016',
-        'img' => 'https://cdns-images.dzcdn.net/images/cover/79234ae…062515617a1fa06d4be75/1900x1900-000000-80-0-0.jpg',
+        'img' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCP_aycYwCodL09lQAlfXGHAInjPzKSPsFLA&usqp=CAU',
     ],
     [
         'title' => '100 MESSAGGI',
         'artista' => 'Lazza',
         'anno-prod' => '2024',
-        'img' => 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD…iizooQnuXMpFy5lSEKUgmC6CBCXQTALoIGJq7hIBOkM//2Q==',
+        'img' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-50Sj-o2KUhSvUeLicCUJWjsQCy7lJOrWGw&s
+',
     ],
     [
         'title' => 'Vai!',
         'artista' => 'Alfa',
         'anno-prod' => '2024',
-        'img' => 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD…71Hmf+CirUW6/Zf3/AKMX4f8ARzyqd7x+9qtRaCZSiiiQj//Z',
+        'img' => '	https://www.cromosomimedia.com/wp-content/uploads/2024/01/ALFA.png',
     ],
     [
         'title' => 'Acqua passata',
         'artista' => 'Capo Plaza',
         'anno-prod' => '2024',
-        'img' => 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD…PjM7RvL8fpHNqsr/MqFChViTC/mNBXwCFCixKqwoUKCP/2Q==',
+        'img' => '	https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScHOSaFYvhnZnNFguqluImQHegAi6zFDPbCA&usqp=CAU',
     ],
 
 ];

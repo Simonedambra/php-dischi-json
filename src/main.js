@@ -1,19 +1,19 @@
-console.log('hai collegato correttamente il file js')
-const { createApp } = Vue
+
+const { createApp, ref } = Vue
 
 createApp({
     data() {
-        urldisc = 'http://localhost/php-dischi-json/disc-gen.php';
-        disc = [];
+        let urldisc = 'http://localhost/php-dischi-json/disc-gen.php';
+        let disc = [];
         return {
-            urldisc
+            urldisc,
+            disc
         }
-
     },
     methods: {
         getdisc() {
             axios.get(this.urldisc).then(response => {
-                this.disc = response;
+                this.disc = response.data;
                 console.log(this.disc)
             })
         }
@@ -21,5 +21,4 @@ createApp({
     created() {
         this.getdisc()
     }
-}
-).mount('#app')
+}).mount('#app')
