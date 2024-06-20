@@ -1,0 +1,27 @@
+.gray {
+    background-color: #1a1414;
+}
+
+.color-white {
+    color: white;
+}
+
+#logo {
+    width: 6.25rem;
+}
+
+body {
+
+    background: rgb(18, 18, 18);
+    background: linear-gradient(0deg, rgba(18, 18, 18, 1) 0%, rgba(18, 18, 18, 1) 50%, rgba(32, 18, 92, 1) 100%);
+}
+
+header {
+    position: fixed;
+    top: 0;
+}
+
+main {
+
+    margin-top: 6.25rem;
+}
